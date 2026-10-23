@@ -1,4 +1,4 @@
-## Usage Instructions of the program:
+## Usage Instructions for the program:
 
 1. Open Linux terminal
 2. Type `unzip askisi2.zip`
