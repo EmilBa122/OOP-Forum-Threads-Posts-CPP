@@ -1,5 +1,3 @@
-# OOP Forum Threads Posts CPP
-
 ## Usage Instructions of the program:
 
 1. Open Linux terminal
