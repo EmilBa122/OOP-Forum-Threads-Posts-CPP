@@ -7,7 +7,7 @@
 
 ## Program design idea:
 
-We have the global table texts where it keeps the texts that later will be assigned to the part text of the class post which contains in the position i the text texti that is in the position 0 it has the text text0 in the position 1 the text text1……..(I use the method to_string(i))and we have the global variable sum_global that is used for the id of the post.
+We have the global table texts where it keeps the texts that later will be assigned to the  member text of the class post which contains in the position i the text texti that is in the position 0 it has the text text0 in the position 1 the text text1……..(I use the method to_string(i))and we have the global variable sum_global that is used for the id of the post.
 
 As we create a forum with a name, we specify that this forum will have 2 threads where this number will be assigned to the sum_thread of the class forum also we have in the private part of the forum \*\*th that points to a table that contains addresses where each address points to a thread structure.
 
@@ -19,7 +19,7 @@ As a post is created we choose randomly a text from the table texts and we assig
 
 The class date is specified by the day,month and year and in the public part we have the function set() that initializes the creation date and the print() that prints the creation date of the threads and of the posts.
 
-**FOR THE REPRESENTATION OF A NODE OF THE LIST WE HAVE A struct list_node THAT CONSISTS OF THE PARTS post content AND A POINTER THAT POINTS TO THE NEXT NODE OF THE LIST.FOR THE REPRESENTATION OF THE LIST WE HAVE THE class list THAT CONTAINS A POINTER WHICH IS THE HEAD OF THE LIST (list_head) AND POINTS TO THE FIRST NODE OF THE LIST.**
+**FOR THE REPRESENTATION OF A NODE OF THE LIST WE HAVE A struct list_node THAT CONSISTS OF THE MEMBERS post content AND A POINTER THAT POINTS TO THE NEXT NODE OF THE LIST.FOR THE REPRESENTATION OF THE LIST WE HAVE THE class list THAT CONTAINS A POINTER WHICH IS THE HEAD OF THE LIST (list_head) AND POINTS TO THE FIRST NODE OF THE LIST.**
 
 **FOR THE REPRESENTATION OF A NODE OF THE TREE WE HAVE THE struct tree_node THAT CONSISTS OF THE NAME OF THE creator,A LIST (list li) THAT CONTAINS ALL THE post OF THE SPECIFIC creator AND OF POINTERS THAT POINT TO THE NEXT NODES OF THE TREE.FOR THE REPRESENTATION OF THE TREE WE HAVE THE class tree THAT CONTAINS A POINTER WHICH IS THE ROOT OF THE TREE (root) AND POINTS TO THE FIRST NODE OF THE TREE.**
 
